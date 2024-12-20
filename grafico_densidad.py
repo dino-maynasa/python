@@ -2,8 +2,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
-data = np.random.normal(size=1000)
-sns.kdeplot(data, fill=True, color='blue')
+data = np.random.normal(size=100)
+sns.kdeplot(data, fill=True, color='green')
 
 plt.title('Densidad')
 plt.xlabel('Valor')
